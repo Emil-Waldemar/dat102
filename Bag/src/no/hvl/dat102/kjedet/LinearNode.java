@@ -10,9 +10,9 @@ public class LinearNode<T> {
     private LinearNode<T> neste;
     private T element;
 
-    /**
+    /************************
      * Oppretter en tom node
-     */
+     ************************/
     public LinearNode() {
         neste = null;
         element = null;
@@ -29,7 +29,7 @@ public class LinearNode<T> {
     }
 
     /**
-     * Returnerer etterfølger.
+     * Returnerer etterfï¿½lger.
      *
      * @return neste node
      */
